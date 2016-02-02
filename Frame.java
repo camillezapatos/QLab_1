@@ -24,13 +24,15 @@ public class Frame extends JFrame {
         Dimension d=tk.getScreenSize();
         setDefaultCloseOperation(Frame.EXIT_ON_CLOSE);
         setTitle("QLab_1");
+        JLabel label = new JLabel("Software Engineering");
+        getContentPane().add(label);
         int random1=rand.nextInt(d.width);
         int random2=rand.nextInt(d.height);
         int random3=rand.nextInt(d.width);
         int random4=rand.nextInt(d.height);
         setSize(random1,random2);
         setLocation(random3,random4);
-        f.pack();
+    
     }
     
 }
