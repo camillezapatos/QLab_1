@@ -30,6 +30,7 @@ public class Frame extends JFrame {
         int random4=rand.nextInt(d.height);
         setSize(random1,random2);
         setLocation(random3,random4);
+        f.pack();
     }
     
 }
